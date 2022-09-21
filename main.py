@@ -1,19 +1,10 @@
-#Nombre: scott orellana curso: 4°B
-print("cantidad de productos:")
-prods = int(input())
-i=0
-sub=0
-while i<prods:
-  print("producto",i+1," valor:")
-  val = int(input())
-  print("cantidad")
-  cant = int(input())
-  subpro=val*cant
-  sub=sub+subpro
-  i+=1
-iva = sub * 0.19
-total = sub + iva
-print("se vendieron:",prods,"productos")
-print("subtotal: ",sub)
-print("iva 19% ",iva)
-print("total: ",total)
+#Juan Iturriaga 4B
+
+a = input("Ingrese el nombre del producto: ")
+b = int(input("Ingrese el precio del producto: "))
+c = int(input("Ingrese las Unidades a llevar del producto: "))
+st = b*c
+IVA = (b*c)*0.19
+pt = IVA+b*c
+
+print("\n Producto : ", a, "\n", "Precio : ", b, "$", "\n", "Cantidad: ", c, "\n", "Subtotal: ", st,"$", "\n", "IVA: ", IVA ,"$", "\n", "Total: ", pt ,"$",)
