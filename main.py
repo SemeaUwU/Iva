@@ -1,4 +1,4 @@
-#Juan Iturriaga 4B
+#Juan Iturriaga 4B #holas
 
 a = input("Ingrese el nombre del producto: ")
 b = int(input("Ingrese el precio del producto: "))
